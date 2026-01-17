@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImage from "@assets/Gemini_Generated_Image_z1V2_1768612912495.png";
 
 const navItems = [
   { name: "Home", href: "/" },
@@ -41,9 +42,12 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" data-testid="link-logo">
-            <span className="text-xl lg:text-2xl font-bold tracking-tight text-nostra-navy-deep" data-testid="text-header-logo">
-              NOSTRA GROUP
-            </span>
+            <img 
+              src={logoImage} 
+              alt="Nostra Group" 
+              className="h-8 lg:h-10 w-auto"
+              data-testid="img-header-logo"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1" data-testid="nav-desktop">

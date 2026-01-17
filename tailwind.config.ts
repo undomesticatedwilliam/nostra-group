@@ -81,6 +81,21 @@ export default {
           busy: "rgb(239 68 68)",
           offline: "rgb(156 163 175)",
         },
+        nostra: {
+          bone: "#FAF9F6",
+          warm: "#FFFEF9",
+          ivory: "#F5F5F0",
+          navy: {
+            deep: "#0A1628",
+            military: "#1E3A5F",
+            steel: "#2C5282",
+          },
+          charcoal: "#1C2A3A",
+          slate: "#374151",
+          gray: "#6B7280",
+          dark: "#0F172A",
+          light: "#F8FAFC",
+        },
       },
       fontFamily: {
         sans: ["var(--font-sans)"],

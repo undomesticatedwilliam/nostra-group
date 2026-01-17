@@ -40,12 +40,12 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-20">
+        <div className="flex items-center justify-between h-28 lg:h-36">
           <Link href="/" data-testid="link-logo">
             <img
               src={logoImage}
               alt="Nostra Group"
-              className="h-10 lg:h-12 w-auto"
+              className="h-[100px] lg:h-[120px] w-auto"
               data-testid="img-header-logo"
             />
           </Link>

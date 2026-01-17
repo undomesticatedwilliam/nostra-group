@@ -45,7 +45,7 @@ export default function Header() {
             <img 
               src={logoImage} 
               alt="Nostra Group" 
-              className="h-8 lg:h-10 w-auto"
+              className="h-10 lg:h-14 w-auto"
               data-testid="img-header-logo"
             />
           </Link>
@@ -58,7 +58,7 @@ export default function Header() {
                   className={`px-4 py-2 text-sm font-medium transition-colors rounded-md ${
                     location === item.href
                       ? "text-nostra-navy-military bg-nostra-ivory"
-                      : "text-nostra-slate"
+                      : "text-nostra-navy-deep"
                   }`}
                 >
                   {item.name}
@@ -92,7 +92,7 @@ export default function Header() {
                     className={`block px-4 py-3 text-sm font-medium transition-colors rounded-md ${
                       location === item.href
                         ? "text-nostra-navy-military bg-nostra-ivory"
-                        : "text-nostra-slate"
+                        : "text-nostra-navy-deep"
                     }`}
                   >
                     {item.name}

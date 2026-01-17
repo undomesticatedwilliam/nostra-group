@@ -19,7 +19,7 @@ export default function Footer() {
             <img 
               src={logoImage} 
               alt="Nostra Group" 
-              className="h-8 w-auto brightness-0 invert"
+              className="h-10 w-auto brightness-0 invert"
               data-testid="img-footer-logo"
             />
             <p className="mt-4 text-sm text-nostra-light/70 leading-relaxed max-w-sm" data-testid="text-footer-description">

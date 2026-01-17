@@ -20,7 +20,7 @@ export default function Footer() {
               <img
                 src={logoImage}
                 alt="Nostra Group"
-                className="h-16 w-auto"
+                className="h-24 w-auto"
                 data-testid="img-footer-logo"
               />
             </Link>

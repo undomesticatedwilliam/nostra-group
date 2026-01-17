@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import logoImage from "@assets/Transparent_Logo_Blue_w_Dark_Blue_Font_1768615280908.png";
 
 const quickLinks = [
   { name: "Home", href: "/" },
@@ -11,20 +12,25 @@ const quickLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-nostra-dark text-nostra-light" data-testid="footer">
+    <footer className="bg-nostra-bone border-t border-nostra-ivory" data-testid="footer">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <div>
-            <span className="text-xl font-bold tracking-tight text-nostra-light" data-testid="text-footer-logo">
-              NOSTRA GROUP
-            </span>
-            <p className="mt-4 text-sm text-nostra-light/70 leading-relaxed max-w-sm" data-testid="text-footer-description">
+            <Link href="/" data-testid="link-footer-logo">
+              <img
+                src={logoImage}
+                alt="Nostra Group"
+                className="h-16 w-auto"
+                data-testid="img-footer-logo"
+              />
+            </Link>
+            <p className="mt-4 text-sm text-nostra-slate leading-relaxed max-w-sm" data-testid="text-footer-description">
               Operational partnership for essential businesses. We partner with founders who've built something worth preserving.
             </p>
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-nostra-light/90 mb-4" data-testid="text-footer-links-title">
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-nostra-charcoal mb-4" data-testid="text-footer-links-title">
               Quick Links
             </h4>
             <nav className="flex flex-col gap-2" data-testid="nav-footer-links">
@@ -32,7 +38,7 @@ export default function Footer() {
                 <Link key={link.name} href={link.href}>
                   <span
                     data-testid={`link-footer-${link.name.toLowerCase().replace(/\s+/g, "-")}`}
-                    className="text-sm text-nostra-light/70 transition-colors"
+                    className="text-sm text-nostra-slate transition-colors"
                   >
                     {link.name}
                   </span>
@@ -42,10 +48,10 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-nostra-light/90 mb-4" data-testid="text-footer-contact-title">
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-nostra-charcoal mb-4" data-testid="text-footer-contact-title">
               Contact
             </h4>
-            <div className="space-y-2 text-sm text-nostra-light/70">
+            <div className="space-y-2 text-sm text-nostra-slate">
               <p>
                 <a
                   href="mailto:info@nostragroup.com"
@@ -70,11 +76,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-nostra-light/10">
-          <p className="text-xs text-nostra-light/50 leading-relaxed max-w-3xl" data-testid="text-footer-disclaimer">
+        <div className="mt-12 pt-8 border-t border-nostra-ivory">
+          <p className="text-xs text-nostra-gray leading-relaxed max-w-3xl" data-testid="text-footer-disclaimer">
             This website is for informational purposes only and does not constitute an offer to sell or solicitation of an offer to buy any securities. All investments involve risk, including potential loss of principal.
           </p>
-          <p className="mt-4 text-xs text-nostra-light/50" data-testid="text-footer-copyright">
+          <p className="mt-4 text-xs text-nostra-gray" data-testid="text-footer-copyright">
             &copy;{new Date().getFullYear()} Nostra Group LLC. All Rights Reserved.
           </p>
         </div>

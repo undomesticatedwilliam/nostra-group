@@ -6,6 +6,18 @@ import { ClipboardCheck, Cpu, TrendingUp, FileText, Layers, Target, ArrowRight, 
 
 const services = [
   {
+    icon: ClipboardCheck,
+    title: "Operational Assessment",
+    description:
+      "A clear-eyed evaluation of how your business actually runs — not how the org chart says it should. We identify the bottlenecks, inefficiencies, and opportunities that are often invisible to teams living inside them every day. You get a prioritized roadmap focused on what will actually move the needle, not a 200-page report that sits on a shelf.",
+    items: [
+      "Process mapping and bottleneck identification",
+      "Performance measurement evaluation",
+      "Organizational effectiveness assessment",
+      "Prioritized improvement roadmap",
+    ],
+  },
+  {
     icon: TrendingUp,
     title: "Commercial Value Creation",
     description:
@@ -54,18 +66,6 @@ const services = [
           "Margin improvement initiatives",
         ],
       },
-    ],
-  },
-  {
-    icon: ClipboardCheck,
-    title: "Operational Assessment",
-    description:
-      "A clear-eyed evaluation of how your business actually runs — not how the org chart says it should. We identify the bottlenecks, inefficiencies, and opportunities that are often invisible to teams living inside them every day. You get a prioritized roadmap focused on what will actually move the needle, not a 200-page report that sits on a shelf.",
-    items: [
-      "Process mapping and bottleneck identification",
-      "Performance measurement evaluation",
-      "Organizational effectiveness assessment",
-      "Prioritized improvement roadmap",
     ],
   },
   {

@@ -1,0 +1,652 @@
+# Nostra Group Website - Replit Build Instructions
+
+## Overview
+Create a sophisticated, professional investment firm website for Nostra Group. Design structure modeled after Velde Equity (veldeequity.com), but with messaging that reflects Nostra's authentic positioning as an operator-buyer for founders of essential businesses who care about legacy.
+
+---
+
+## Brand Identity
+
+**Company Name:** NOSTRA GROUP
+
+**Location:** Based in the United States
+
+**Tagline:** Operational Partnership for Essential Businesses
+
+**Voice & Tone:** Direct, no-bullshit, operator-to-founder. The way you'd actually talk over coffee — not the way a PE marketing deck reads. Avoid corporate buzzwords, jargon, and empty phrases.
+
+---
+
+## Color Palette
+
+### Primary Colors
+| Color Name | Hex Code | Usage |
+|------------|----------|-------|
+| Bone White | `#FAF9F6` | Primary background |
+| Warm White | `#FFFEF9` | Card backgrounds, sections |
+| Ivory Accent | `#F5F5F0` | Alternate section backgrounds |
+
+### Text Colors
+| Color Name | Hex Code | Usage |
+|------------|----------|-------|
+| Deep Navy | `#0A1628` | Primary headings (H1, H2) |
+| Charcoal | `#1C2A3A` | Secondary headings (H3, H4) |
+| Slate | `#374151` | Body text |
+| Muted Gray | `#6B7280` | Captions, secondary text |
+
+### Accent Colors
+| Color Name | Hex Code | Usage |
+|------------|----------|-------|
+| Military Navy | `#1E3A5F` | Buttons, links, accents |
+| Steel Blue | `#2C5282` | Hover states, highlights |
+
+### Section Backgrounds
+| Color Name | Hex Code | Usage |
+|------------|----------|-------|
+| Dark Section | `#0F172A` | Contact section, footer |
+| Light Text (on dark) | `#F8FAFC` | Text on dark backgrounds |
+
+---
+
+## Typography
+
+**Font Family:** Inter (Google Fonts) or system sans-serif stack
+
+```css
+font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+```
+
+### Type Scale
+| Element | Size | Weight | Color |
+|---------|------|--------|-------|
+| H1 (Hero) | 48px / 3rem | 700 | Deep Navy `#0A1628` |
+| H2 (Sections) | 36px / 2.25rem | 600 | Deep Navy `#0A1628` |
+| H3 (Cards) | 24px / 1.5rem | 600 | Charcoal `#1C2A3A` |
+| H4 (Subsections) | 20px / 1.25rem | 600 | Charcoal `#1C2A3A` |
+| Body | 16px / 1rem | 400 | Slate `#374151` |
+| Body Large | 18px / 1.125rem | 400 | Slate `#374151` |
+| Caption | 14px / 0.875rem | 400 | Muted Gray `#6B7280` |
+
+---
+
+## Website Structure & Navigation
+
+### Header/Navigation
+- **Logo:** "NOSTRA GROUP" in bold professional font (left-aligned)
+- **Navigation Items:** Home | About | Investment Criteria | Value Creation | Advisory | Contact
+- **Behavior:** Sticky header with subtle backdrop blur (`backdrop-filter: blur(10px)`)
+- **Background:** Bone white with subtle shadow on scroll
+
+---
+
+## Page Content
+
+---
+
+### 1. HOME PAGE
+
+#### Hero Section
+**Background:** Bone white `#FAF9F6`
+
+**Main Headline:**
+```
+Operational Partnership for Essential Businesses
+```
+
+**Company Name Display:**
+```
+Nostra Group
+```
+
+**Subheadline:**
+```
+We partner with founders of mission-critical businesses who've built something worth preserving. As former operators — not career finance professionals — we understand what it takes to build a company from the ground up, scale it profitably, and protect the culture and people that made it work.
+```
+
+---
+
+#### What We Do Section
+**Section Title:** "Operator-First Investment"
+
+**Three Content Cards:**
+
+**Card 1: Founder Transitions**
+- **Title:** "A real exit option *for* founders who give a damn"
+- **Content:** "You built this over decades. You know the PE horror stories — gut the team, slash costs, flip it in three years. We're not that. We're operators who buy good businesses and make them better without destroying what made them work. If you care about what happens after you sign, we should talk."
+
+**Card 2: Growth Partnerships**
+- **Title:** "Operational capital *for* businesses ready for their next chapter"
+- **Content:** "Some businesses don't need a turnaround — they need a partner with the operational experience to help them scale. We bring hands-on expertise in technology integration, commercial operations, and systematic growth. Not consultants who leave you with a deck. Operators who help you execute."
+
+**Card 3: Essential Industries**
+- **Title:** "Long-term ownership *for* mission-critical sectors"
+- **Content:** "Infrastructure. Utilities. Environmental services. Transportation. These businesses keep society running. They deserve owners who understand their importance and invest accordingly — not financial engineers looking for a quick multiple arbitrage."
+
+---
+
+#### Why Nostra Section
+**Background:** Ivory Accent `#F5F5F0`
+**Section Title:** "Why Partner With Us"
+
+**Three Pillars:**
+
+**Pillar 1: We've Sat in Your Seat**
+```
+We've scaled teams from 5 to 25. Hit payroll during tough months. Built systems that actually work. Made hard calls on people and products. Our investment approach is shaped by operational reality, not spreadsheet assumptions. When we underwrite a business, we're thinking about what it takes to run it — because we plan to.
+```
+
+**Pillar 2: Technology as a Force Multiplier**
+```
+Most essential-services businesses are underserved by technology — not because the opportunity isn't there, but because implementation requires someone who understands both the tech and the operational context. We've done this work hands-on: CRM builds, marketing automation, customer journey optimization, AI integration. We bring the playbook, not just the capital.
+```
+
+**Pillar 3: Legacy-Aligned Partnership**
+```
+We're not buying your business to flip it in three years. We're looking for companies we can own, operate, and grow for the long term. Your employees, your customers, your reputation — these matter to us because we plan to live with the consequences of how we treat them.
+```
+
+**Call-to-Action:**
+```
+If you've built something worth preserving, let's talk.
+```
+
+**Button:** "GET IN TOUCH"
+
+---
+
+### 2. ABOUT PAGE
+
+**Page Title:** "About Nostra Group"
+
+#### Our Story Section
+```
+Nostra Group was founded by former Marines who spent their post-military careers building, scaling, and exiting businesses — not analyzing them from a distance.
+
+We've been the operator trying to hit growth targets with limited resources. We've built the systems, hired the teams, and made the hard calls. We've also been on the other side of the table, evaluating hundreds of acquisition targets and seeing firsthand how traditional PE approaches often destroy value in the name of creating it.
+
+We started Nostra because we saw a gap: founders of essential businesses deserve a real alternative to the standard PE playbook. An option that preserves what they built while bringing the operational and technology expertise to take it further.
+```
+
+---
+
+#### What Makes Us Different Section
+**Section Title:** "Not Your Typical Investors"
+
+**5 Differentiator Cards:**
+
+**1. Operators, Not Financiers**
+```
+We've built companies, not just models of them. Our investment decisions are grounded in operational reality — what it actually takes to run and improve a business, not just what the spreadsheet says is possible.
+```
+
+**2. Technology Integration Experience**
+```
+We've implemented technology solutions in environments where failure wasn't an option. CRM transformations, marketing automation, AI integration — we've done the work, not just advised on it.
+```
+
+**3. Military Discipline, Startup Agility**
+```
+Marine Corps leadership taught us how to execute in high-stakes, resource-constrained environments. Startup experience taught us how to move fast and adapt. We bring both.
+```
+
+**4. Pattern Recognition**
+```
+We've evaluated 500+ acquisition targets and conducted deep due diligence on dozens. We know what separates businesses that scale from those that stall — and we know where the real opportunities hide.
+```
+
+**5. Long-Term Orientation**
+```
+We're not optimizing for a 3-year exit. We're building a portfolio of essential businesses we can own and operate for the long haul. That changes how we think about every decision.
+```
+
+---
+
+#### Our Approach Section
+**Section Title:** "How We Work"
+
+```
+We're direct. We move fast when it makes sense and take our time when it doesn't. We don't hide behind jargon or make promises we can't keep.
+
+If we're interested in your business, you'll know quickly. If we're not the right fit, we'll tell you that too — and try to point you toward someone who might be.
+
+Once we partner, we're hands-on but not overbearing. We're there when you need us and out of the way when you don't. We've been on the receiving end of "helpful" investors who create more problems than they solve. We don't do that.
+```
+
+---
+
+### 3. INVESTMENT CRITERIA PAGE
+
+**Page Title:** "Investment Criteria"
+
+#### What We Look For Section
+```
+We focus on essential businesses in industries that matter — companies providing mission-critical services that keep infrastructure running and communities functioning. We're looking for good businesses with room to get better, not broken situations that need saving.
+```
+
+---
+
+#### Investment Focus Section
+**Section Title:** "Our Focus"
+
+**5 Focus Cards:**
+
+**1. Essential Industries**
+```
+Infrastructure, utilities, environmental services, transportation, and industrial services. Businesses that do work that matters — not nice-to-haves, but need-to-haves.
+```
+
+**2. Founder-Owned Businesses**
+```
+Companies built by people who care about what they've created. Founders thinking about succession, transition, or partnership — not distressed sellers looking for a bailout.
+```
+
+**3. Technology Opportunity**
+```
+Businesses where thoughtful technology integration can drive meaningful improvement. Not tech for tech's sake, but practical applications that improve operations, customer experience, and margins.
+```
+
+**4. Fragmented Markets**
+```
+Industries with consolidation opportunity where we can build platforms through disciplined acquisition. Sectors where operational excellence and scale create real competitive advantage.
+```
+
+**5. Defensible Positions**
+```
+Companies with something real — customer relationships, technical expertise, regulatory positioning, geographic advantage. Businesses that aren't easily replicated or disrupted.
+```
+
+---
+
+#### Target Parameters Section
+**Section Title:** "Target Parameters"
+
+**Key Metrics (4 Stat Cards):**
+
+| Metric | Value |
+|--------|-------|
+| Structure | Control Acquisitions |
+| EBITDA | $3M+ |
+| Margins | 10%+ EBITDA |
+| Geography | United States |
+
+**Note:** *Flexible on EBITDA minimums for strategic add-ons or compelling buy-and-build opportunities*
+
+---
+
+#### What We're Not Section
+**Section Title:** "What We're Not Looking For"
+
+```
+Transparency saves everyone time. Here's what doesn't fit:
+
+• Turnarounds and distressed situations — we're operators, not restructuring specialists
+• Businesses dependent on a single customer or contract
+• Industries we don't understand and can't add value to
+• Sellers primarily optimizing for maximum price with no concern for what comes after
+• Situations requiring significant capital expenditure before the business can operate normally
+```
+
+---
+
+### 4. VALUE CREATION PAGE
+
+**Page Title:** "Value Creation"
+
+#### Our Approach Section
+```
+We don't believe in value creation through financial engineering or cost-cutting alone. We build value by making businesses operationally better — more efficient, more capable, better positioned to grow.
+
+Our playbook is built on what we've actually done, not theoretical frameworks. Every initiative below reflects real experience implementing these approaches in resource-constrained environments where execution matters more than strategy decks.
+```
+
+---
+
+#### Value Creation Framework Section
+**Section Title:** "How We Build Value"
+
+**5 Pillars:**
+
+**Pillar 1: Operational Excellence**
+```
+Systematic process improvement rooted in discipline and accountability. We identify bottlenecks, eliminate waste, and build operating rhythms that create consistency. Not through top-down mandates, but by working alongside teams to understand what's actually happening and what can be better.
+```
+- Operating cadence and accountability systems
+- Process documentation and standardization
+- Performance measurement and management
+- Resource allocation optimization
+
+**Pillar 2: Commercial Value Creation**
+```
+Revenue growth through better systems, not just more salespeople. We build the commercial infrastructure that turns good businesses into growth engines — from lead generation through customer retention.
+```
+- Go-to-market strategy and execution
+- Sales process optimization
+- Customer acquisition cost improvement
+- Net revenue retention programs
+
+**Pillar 3: Technology Integration**
+```
+Practical technology implementation that solves real problems. We've built and integrated CRMs, automated marketing systems, and deployed AI tools in environments where they had to work. We bring that experience to every business we partner with.
+```
+- Commercial tech stack optimization
+- Automation and workflow improvement
+- Data infrastructure and analytics
+- AI/ML application where appropriate
+
+**Pillar 4: Strategic Growth**
+```
+Disciplined expansion that builds on existing strengths. We help businesses grow into adjacent markets, add complementary services, and pursue acquisitions that make strategic sense — not growth for growth's sake.
+```
+- Market expansion planning
+- Service line extension
+- Add-on acquisition identification and integration
+- Partnership and channel development
+
+**Pillar 5: Talent and Culture**
+```
+Building teams that can execute. We focus on hiring, developing, and retaining the people who make businesses work. We've learned that culture isn't about ping pong tables — it's about clarity, accountability, and treating people like adults.
+```
+- Organizational design
+- Key hire identification and recruitment
+- Incentive alignment
+- Leadership development
+
+---
+
+### 5. ADVISORY PAGE
+
+**Page Title:** "Advisory"
+
+#### Overview Section
+```
+Not every engagement needs to be an acquisition. We work with business owners and leadership teams on specific operational challenges where our experience can help — either as a precursor to potential investment or as a standalone engagement.
+
+We're not consultants who deliver a deck and disappear. We work alongside your team to solve real problems, with compensation structures aligned to outcomes, not hours billed.
+```
+
+---
+
+#### Services Section
+**Section Title:** "How We Help"
+
+**Service 1: Operational Assessment**
+```
+A clear-eyed evaluation of how your business actually runs — not how the org chart says it should. We identify the bottlenecks, inefficiencies, and opportunities that are often invisible to teams living inside them every day. You get a prioritized roadmap focused on what will actually move the needle, not a 200-page report that sits on a shelf.
+```
+- Process mapping and bottleneck identification
+- Performance measurement evaluation
+- Organizational effectiveness assessment
+- Prioritized improvement roadmap
+
+**Service 2: Technology Strategy**
+```
+Practical guidance on technology adoption that starts with your actual problems, not a vendor's sales pitch. We help you figure out what you actually need, evaluate options without the conflicts that come from implementation fees, and build a realistic plan to get there.
+```
+- Current state technology assessment
+- Requirements definition and prioritization
+- Vendor evaluation and selection support
+- Implementation roadmap development
+
+**Service 3: Commercial Value Creation**
+```
+Comprehensive revenue optimization that transforms commercial operations into sustainable growth engines. We build the systems, processes, and analytics infrastructure that drive measurable improvements in customer acquisition, retention, and lifetime value.
+```
+
+**Revenue Operations (RevOps)**
+- CRM and commercial tech stack optimization
+- Pipeline analytics and forecasting model development
+- Sales process design and standardization
+- Lead scoring and attribution frameworks
+- Cross-functional alignment (sales, marketing, customer success)
+- Revenue reporting and dashboard implementation
+
+**Customer Acquisition**
+- CAC optimization and channel efficiency analysis
+- Growth marketing system implementation
+- Go-to-market strategy refinement
+- Affiliate and partnership channel development
+- Paid acquisition and organic growth integration
+- Conversion funnel analysis and optimization
+
+**Retention & Expansion**
+- Net Revenue Retention (NRR) improvement programs
+- Customer journey mapping and optimization
+- Activation and onboarding process redesign
+- Churn analysis and intervention frameworks
+- Upsell/cross-sell motion development
+- Customer health scoring and early warning systems
+
+**Pricing & Monetization**
+- Pricing strategy development and optimization
+- Packaging and tier structure analysis
+- Value metric identification
+- Competitive positioning assessment
+- Margin improvement initiatives
+
+**Service 4: Transaction Preparation**
+```
+If you're thinking about selling your business in the next few years, we can help you see it through a buyer's eyes and address the issues that will come up in diligence before they become negotiating points or deal-breakers.
+```
+- Buyer-perspective business assessment
+- Financial reporting and metrics cleanup
+- Operational documentation
+- Value creation opportunity identification
+- Process preparation and timeline planning
+
+**Service 5: Integration Support**
+```
+For businesses that have acquired or are acquiring, we help with the hard work of actually combining operations. Integration is where most acquisition value gets lost — we help make sure that doesn't happen.
+```
+- Integration planning and playbook development
+- First 100 days execution support
+- Operational synergy identification and capture
+- Cultural integration guidance
+- Performance tracking and course correction
+
+---
+
+#### How We Work Section
+**Section Title:** "Our Approach"
+
+**Outcomes Over Hours**
+```
+We structure engagements around results, not billable hours. Where possible, we tie compensation to the outcomes we help create. We win when you win.
+```
+
+**Hands-On, Not Hand-Off**
+```
+We work alongside your team, not above them. We're in the details, helping solve problems and build capabilities — not just identifying issues and leaving you to figure out the rest.
+```
+
+**Built for Action**
+```
+Everything we do is oriented toward execution. We don't deliver theoretical frameworks or best-practice overviews. We deliver specific, actionable plans built for your situation, and we help you implement them.
+```
+
+**Call-to-Action:**
+```
+Have a specific challenge? Let's talk about whether we can help.
+```
+
+**Button:** "CONTACT US"
+
+---
+
+### 6. CONTACT PAGE
+
+**Background:** Dark Section `#0F172A`
+**Text Color:** Light `#F8FAFC`
+
+**Page Title:** "Get in Touch"
+
+**Intro Text:**
+```
+Whether you're a founder thinking about what's next, an owner looking for operational support, or an intermediary with a relevant opportunity — we'd like to hear from you.
+
+We respond to every serious inquiry. If there's a fit, you'll hear back quickly. If not, we'll tell you that too.
+```
+
+**Contact Information:**
+
+| Field | Content |
+|-------|---------|
+| Email | info@nostragroup.com |
+| Website | www.nostragroup.com |
+
+**Contact Form Fields:**
+- Name
+- Email
+- Company (optional)
+- How can we help? (textarea)
+- Submit Button: "SEND MESSAGE"
+
+---
+
+## Footer
+
+**Background:** Dark Section `#0F172A`
+**Text Color:** Light `#F8FAFC`
+
+**Logo:** Nostra Group (light version)
+
+**Quick Links:** Home | About | Investment Criteria | Value Creation | Advisory | Contact
+
+**Disclaimer:**
+```
+This website is for informational purposes only and does not constitute an offer to sell or solicitation of an offer to buy any securities. All investments involve risk, including potential loss of principal.
+```
+
+**Copyright:**
+```
+©2025 Nostra Group LLC. All Rights Reserved.
+```
+
+---
+
+## CSS Implementation Notes
+
+### Global Styles
+```css
+:root {
+  /* Backgrounds */
+  --bone-white: #FAF9F6;
+  --warm-white: #FFFEF9;
+  --ivory-accent: #F5F5F0;
+  
+  /* Text Colors */
+  --deep-navy: #0A1628;
+  --charcoal: #1C2A3A;
+  --slate: #374151;
+  --muted-gray: #6B7280;
+  
+  /* Accent Colors */
+  --military-navy: #1E3A5F;
+  --steel-blue: #2C5282;
+  
+  /* Dark Sections */
+  --dark-section: #0F172A;
+  --light-text: #F8FAFC;
+}
+
+body {
+  background-color: var(--bone-white);
+  color: var(--slate);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1, h2 {
+  color: var(--deep-navy);
+}
+
+h3, h4 {
+  color: var(--charcoal);
+}
+```
+
+### Card Styles
+```css
+.card {
+  background: var(--warm-white);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+```
+
+### Button Styles
+```css
+.btn-primary {
+  background-color: var(--military-navy);
+  color: var(--light-text);
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--steel-blue);
+}
+```
+
+### Section Alternation
+```css
+.section-light {
+  background-color: var(--bone-white);
+}
+
+.section-alt {
+  background-color: var(--ivory-accent);
+}
+
+.section-dark {
+  background-color: var(--dark-section);
+  color: var(--light-text);
+}
+```
+
+---
+
+## Responsive Breakpoints
+
+| Breakpoint | Width |
+|------------|-------|
+| Mobile | < 640px |
+| Tablet | 640px - 1024px |
+| Desktop | > 1024px |
+
+---
+
+## Image Recommendations
+
+Use professional, authentic photography:
+- Industrial and infrastructure imagery (utilities, environmental services, transportation)
+- Avoid generic stock photos of handshakes and boardrooms
+- Real-world operational environments
+- Muted, professional color treatment
+- Consider subtle overlays to maintain brand consistency
+
+---
+
+## Build Checklist for Replit
+
+1. [ ] Set up React or Next.js project
+2. [ ] Import Inter font from Google Fonts
+3. [ ] Implement CSS variables for color system
+4. [ ] Build responsive navigation with sticky header
+5. [ ] Create reusable card components
+6. [ ] Build each page following content structure
+7. [ ] Implement smooth scroll and hover animations
+8. [ ] Add mobile menu functionality
+9. [ ] Build contact form with validation
+10. [ ] Test all responsive breakpoints
+11. [ ] Optimize images and performance
+12. [ ] Test all links and navigation

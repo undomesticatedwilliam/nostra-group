@@ -1,5 +1,4 @@
 import { Link } from "wouter";
-import logoImage from "@assets/Transparent_Logo_Blue_1768611362587.png";
 
 const quickLinks = [
   { name: "Home", href: "/" },
@@ -16,12 +15,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <div>
-            <img 
-              src={logoImage} 
-              alt="Nostra Group" 
-              className="h-10 w-auto brightness-0 invert"
-              data-testid="img-footer-logo"
-            />
+            <span className="text-xl font-bold tracking-tight text-nostra-light" data-testid="text-footer-logo">
+              NOSTRA GROUP
+            </span>
             <p className="mt-4 text-sm text-nostra-light/70 leading-relaxed max-w-sm" data-testid="text-footer-description">
               Operational partnership for essential businesses. We partner with founders who've built something worth preserving.
             </p>

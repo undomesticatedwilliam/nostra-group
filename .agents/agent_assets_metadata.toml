@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "aFmcwS20cq6AzksX5M9yG"
+uri = "file://nostra-group-build.zip"
+type = "unspecified"
+title = "Nostra Group — Full Build"

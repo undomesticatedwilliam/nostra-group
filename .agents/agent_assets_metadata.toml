@@ -6,3 +6,9 @@ id = "aFmcwS20cq6AzksX5M9yG"
 uri = "file://nostra-group-build.zip"
 type = "unspecified"
 title = "Nostra Group — Full Build"
+
+[[outputs]]
+id = "fHUy6ZMwgi0Ui2QBUJ8Qe"
+uri = "file://nostra-group-build.tar.gz"
+type = "unspecified"
+title = "Nostra Group — Full Build"

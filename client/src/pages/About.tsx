@@ -28,13 +28,13 @@ const differentiators = [
 const team = [
   {
     name: "Bill Tabino",
-    title: "Co-Founder & Managing Partner",
+    title: "Managing Partner",
     focus: "Operations & Investment",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   {
     name: "Dominick Blue",
-    title: "Co-Founder & Managing Partner",
+    title: "Managing Partner",
     focus: "AI & Technology Commercialization",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },

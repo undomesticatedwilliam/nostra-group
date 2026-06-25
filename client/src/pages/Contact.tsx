@@ -75,7 +75,7 @@ export default function Contact() {
                   Whether you're a founder thinking about what's next, an owner looking for operational support, or an intermediary with a relevant opportunity — we want to hear from you.
                 </p>
                 <p className="text-lg text-nostra-light/80 leading-relaxed" data-testid="text-contact-intro-2">
-                  We respond to every serious inquiry. If there's a fit, you'll hear back quickly. If not, we'll tell you that too.
+                  We respond to every serious inquiry. If there's a fit, you'll hear back within 48 hours.
                 </p>
               </div>
 

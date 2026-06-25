@@ -15,7 +15,7 @@ const whatWeDoCards = [
     icon: TrendingUp,
     title: "Operational capital for businesses ready for their next chapter",
     content:
-      "Some businesses don't need a turnaround — they need a partner with the operational experience to help them scale. We bring hands-on expertise in technology integration, commercial operations, and systematic growth. Not consultants who leave you with a deck. Operators who help you execute.",
+      "Some businesses don't need a turnaround — they need the right buyer. We acquire good businesses in essential industries and bring the operational and technology expertise to help them reach their full potential. Not consultants who leave you with a deck. Operators who roll up their sleeves.",
   },
   {
     icon: Building2,
@@ -36,7 +36,7 @@ const whyNostraPillars = [
     icon: Cpu,
     title: "Technology as a Force Multiplier",
     content:
-      "Most essential-services businesses are underserved by technology — not because the opportunity isn't there, but because implementation requires someone who understands both the tech and the operational context. We've done this work hands-on: CRM builds, marketing automation, customer journey optimization, AI integration. We bring the playbook, not just the capital.",
+      "Essential services businesses are underserved by technology — not because the tools don't exist, but because implementation requires someone who understands both the tech and the operational context. We've done this work hands-on. We bring the playbook, not just the capital.",
   },
   {
     icon: Shield,
@@ -51,7 +51,8 @@ export default function Home() {
     <div className="min-h-screen">
       <SEO
         title="Nostra Group | Operational Partnership for Essential Businesses"
-        description="We partner with founders of mission-critical businesses who've built something worth preserving. As former operators, we understand what it takes to build a company from the ground up."
+        description="We partner with founders of mission-critical businesses who've built something worth preserving. Veteran-led independent sponsor acquiring and operating essential businesses for the long term."
+        ogDescription="We partner with founders of mission-critical businesses who've built something worth preserving. Veteran-led independent sponsor acquiring and operating essential businesses for the long term."
       />
 
       <section className="bg-nostra-bone py-20 lg:py-32">
@@ -64,7 +65,7 @@ export default function Home() {
               Operational Partnership for Essential Businesses
             </h1>
             <p className="mt-8 text-lg lg:text-xl text-nostra-slate leading-relaxed max-w-3xl" data-testid="text-hero-subheadline">
-              We partner with founders of mission-critical businesses who've built something worth preserving. As former operators — not career finance professionals — we understand what it takes to build a company from the ground up, scale it profitably, and protect the culture and people that made it work.
+              We partner with founders of mission-critical businesses who've built something worth preserving. As former operators, we understand what it takes to build a company from the ground up, scale it profitably, and protect the culture and people that made it work. We're not career finance professionals. We're operators who chose to invest.
             </p>
             <div className="mt-10">
               <Link href="/contact">
@@ -86,7 +87,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-semibold text-nostra-navy-deep" data-testid="text-what-we-do-title">
-              Operator-First Investment
+              What We Do
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

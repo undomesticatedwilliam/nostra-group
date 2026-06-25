@@ -18,3 +18,9 @@ id = "4AoinDlguyQ4NWGPpEHGD"
 uri = "file://nostra-static-build.tar.gz"
 type = "unspecified"
 title = "Nostra Group — Static Build (dist/public)"
+
+[[outputs]]
+id = "w4Op4qjyvK0dr5yHa-hxl"
+uri = "file://nostra-netlify.tar.gz"
+type = "unspecified"
+title = "Nostra Group — Netlify Build"

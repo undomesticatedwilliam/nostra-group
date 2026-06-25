@@ -37,7 +37,16 @@ export default function Contact() {
 
   const mutation = useMutation({
     mutationFn: async (data: InsertContact) => {
-      return apiRequest("POST", "/api/contact", data);
+      const res = await fetch("https://formspree.io/f/xeebanak", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error("Submission failed");
+      return res.json();
     },
     onSuccess: () => {
       setIsSubmitted(true);

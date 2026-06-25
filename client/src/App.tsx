@@ -12,10 +12,13 @@ import ValueCreation from "@/pages/ValueCreation";
 import Advisory from "@/pages/Advisory";
 import Contact from "@/pages/Contact";
 import NotFound from "@/pages/not-found";
+import ScrollToTop from "@/components/ScrollToTop";
 
 function Router() {
   return (
-    <Switch>
+    <>
+      <ScrollToTop />
+      <Switch>
       <Route path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/investment-criteria" component={InvestmentCriteria} />
@@ -24,6 +27,7 @@ function Router() {
       <Route path="/contact" component={Contact} />
       <Route component={NotFound} />
     </Switch>
+    </>
   );
 }
 

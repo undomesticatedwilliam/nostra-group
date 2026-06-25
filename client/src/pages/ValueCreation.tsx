@@ -7,7 +7,7 @@ const pillars = [
     icon: Settings,
     title: "Operational Excellence",
     description:
-      "Systematic process improvement rooted in discipline and accountability. We identify bottlenecks, eliminate waste, and build operating rhythms that create consistency. Not through top-down mandates, but by working alongside teams to understand what's actually happening and what can be better.",
+      "Systematic process improvement rooted in discipline and accountability. We identify bottlenecks, eliminate waste, and build operating rhythms that create consistency — working alongside teams to understand what's actually happening and what can be better.",
     items: [
       "Operating cadence and accountability systems",
       "Process documentation and standardization",
@@ -19,7 +19,7 @@ const pillars = [
     icon: TrendingUp,
     title: "Commercial Value Creation",
     description:
-      "Revenue growth through better systems, not just more salespeople. We build the commercial infrastructure that turns good businesses into growth engines — from lead generation through customer retention.",
+      "Revenue growth through better systems. We build the commercial infrastructure that turns good businesses into growth engines — from lead generation through customer retention.",
     items: [
       "Go-to-market strategy and execution",
       "Sales process optimization",
@@ -31,7 +31,7 @@ const pillars = [
     icon: Cpu,
     title: "Technology Integration",
     description:
-      "Practical technology implementation that solves real problems. We've built and integrated CRMs, automated marketing systems, and deployed AI tools in environments where they had to work. We bring that experience to every business we partner with.",
+      "Practical technology implementation — including AI/ML, automation, and data infrastructure — that solves real operational problems. We've built and integrated these systems in environments where they had to work. We bring that experience to every business we partner with.",
     items: [
       "Commercial tech stack optimization",
       "Automation and workflow improvement",
@@ -43,7 +43,7 @@ const pillars = [
     icon: Rocket,
     title: "Strategic Growth",
     description:
-      "Disciplined expansion that builds on existing strengths. We help businesses grow into adjacent markets, add complementary services, and pursue acquisitions that make strategic sense — not growth for growth's sake.",
+      "Disciplined expansion that builds on existing strengths. We help businesses grow into adjacent markets, add complementary services, and pursue acquisitions that make strategic sense.",
     items: [
       "Market expansion planning",
       "Service line extension",
@@ -55,7 +55,7 @@ const pillars = [
     icon: Users,
     title: "Talent and Culture",
     description:
-      "Building teams that can execute. We focus on hiring, developing, and retaining the people who make businesses work. We've learned that culture isn't about ping pong tables — it's about clarity, accountability, and treating people like adults.",
+      "Building teams that can execute. We focus on hiring, developing, and retaining the people who make businesses work — with clarity, accountability, and incentives aligned to outcomes.",
     items: [
       "Organizational design",
       "Key hire identification and recruitment",

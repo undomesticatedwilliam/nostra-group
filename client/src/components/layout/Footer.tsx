@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import logoImage from "@assets/Transparent_Logo_Blue_w_Dark_Blue_Font_1768615280908.png";
+import { SiLinkedin } from "react-icons/si";
 
 const quickLinks = [
   { name: "Home", href: "/" },
@@ -70,6 +71,18 @@ export default function Footer() {
                   data-testid="link-footer-website"
                 >
                   www.nostragroup.com
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://www.linkedin.com/company/nostra-group-usa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 transition-colors"
+                  data-testid="link-footer-linkedin"
+                >
+                  <SiLinkedin className="w-3.5 h-3.5" />
+                  LinkedIn
                 </a>
               </p>
             </div>

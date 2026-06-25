@@ -78,13 +78,11 @@ export default function InvestmentCriteria() {
               Our Focus
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="flex flex-wrap justify-center gap-8">
             {focusAreas.map((area, index) => (
               <Card
                 key={index}
-                className={`bg-nostra-bone border-nostra-ivory p-8 hover-elevate ${
-                  index === 4 ? "md:col-span-2 lg:col-span-1" : ""
-                }`}
+                className="bg-nostra-bone border-nostra-ivory p-8 hover-elevate w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.333rem)]"
                 data-testid={`card-focus-${index}`}
               >
                 <div className="w-12 h-12 rounded-md bg-nostra-navy-military/10 flex items-center justify-center mb-6">

@@ -12,3 +12,9 @@ id = "fHUy6ZMwgi0Ui2QBUJ8Qe"
 uri = "file://nostra-group-build.tar.gz"
 type = "unspecified"
 title = "Nostra Group — Full Build"
+
+[[outputs]]
+id = "4AoinDlguyQ4NWGPpEHGD"
+uri = "file://nostra-static-build.tar.gz"
+type = "unspecified"
+title = "Nostra Group — Static Build (dist/public)"

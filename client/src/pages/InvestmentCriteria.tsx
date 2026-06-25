@@ -7,19 +7,19 @@ const focusAreas = [
     icon: Building,
     title: "Essential Industries",
     content:
-      "Infrastructure, utilities, environmental services, transportation, and industrial services. Businesses that do work that matters — not nice-to-haves, but need-to-haves.",
+      "Infrastructure, utilities, environmental services, transportation, and industrial services. Businesses doing work that keeps society running.",
   },
   {
     icon: Users,
     title: "Founder-Owned Businesses",
     content:
-      "Companies built by people who care about what they've created. Founders thinking about succession, transition, or partnership — not distressed sellers looking for a bailout.",
+      "Companies built by people who care about what they've created. Founders thinking about succession, transition, or partnership who want the right steward for what comes next.",
   },
   {
     icon: Cpu,
     title: "Technology Opportunity",
     content:
-      "Businesses where thoughtful technology integration can drive meaningful improvement. Not tech for tech's sake, but practical applications that improve operations, customer experience, and margins.",
+      "Businesses where thoughtful technology integration can drive meaningful improvement — practical applications that improve operations, customer experience, and margins.",
   },
   {
     icon: Puzzle,
@@ -43,9 +43,9 @@ const targetMetrics = [
 ];
 
 const notLookingFor = [
-  "Turnarounds and distressed situations — we're operators, not restructuring specialists",
+  "Turnarounds and distressed situations — we're operators focused on growth, not restructuring.",
   "Businesses dependent on a single customer or contract",
-  "Industries we don't understand and can't add value to",
+  "Industries outside our operational expertise where we can't add genuine value.",
   "Sellers primarily optimizing for maximum price with no concern for what comes after",
   "Situations requiring significant capital expenditure before the business can operate normally",
 ];
@@ -65,7 +65,7 @@ export default function InvestmentCriteria() {
               Investment Criteria
             </h1>
             <p className="mt-8 text-lg lg:text-xl text-nostra-slate leading-relaxed" data-testid="text-criteria-intro">
-              We focus on essential businesses in industries that matter — companies providing mission-critical services that keep infrastructure running and communities functioning. We're looking for good businesses with room to get better, not broken situations that need saving.
+              We focus on essential businesses in industries that matter — companies providing mission-critical services that keep infrastructure running and communities functioning. We're looking for good businesses with room to get better — run by people who care about what happens after they sell.
             </p>
           </div>
         </div>

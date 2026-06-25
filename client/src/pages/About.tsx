@@ -34,7 +34,7 @@ const team = [
     focus: "Operations & Investment",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     linkedin: "https://www.linkedin.com/in/bill-tabino/",
-    photo: billPhoto,
+    photo: domPhoto,
   },
   {
     name: "Dominick Blue",
@@ -42,7 +42,7 @@ const team = [
     focus: "AI & Technology Commercialization",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     linkedin: "https://www.linkedin.com/in/dominickblue/",
-    photo: domPhoto,
+    photo: billPhoto,
   },
 ];
 

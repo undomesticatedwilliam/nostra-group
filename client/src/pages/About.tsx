@@ -34,7 +34,7 @@ const team = [
     focus: "Operations & Investment",
     bio: "I spent seven years scaling SOFLETE from a five-person startup to a profitable exit — no outside capital, 55% CAGR, and margins that made traditional operators take notice. Before that I founded and exited a fitness business, led U.S.-made apparel operations, and evaluated hundreds of acquisition targets as an independent sponsor. Former Marine and UCLA Anderson MBA with a simple belief: the businesses that keep society running deserve better than the standard PE playbook.",
     linkedin: "https://www.linkedin.com/in/bill-tabino/",
-    photo: domPhoto,
+    photo: billPhoto,
   },
   {
     name: "Dominick Blue",
@@ -42,7 +42,7 @@ const team = [
     focus: "AI & Technology Commercialization",
     bio: "I've spent my career asking one question: how do complex systems fail, and what does it take to make them resilient. Marine Corps officer managing critical infrastructure protection across the Asia-Pacific, software engineer at Salesforce, program manager for data center construction, and senior advisor on M&A value creation in energy and critical infrastructure. Distinguished Fellow at EPRINC researching AI, data centers, and energy security. Marine and UCLA Anderson MBA with a conviction that technology, deployed correctly, changes what's possible for essential businesses.",
     linkedin: "https://www.linkedin.com/in/dominickblue/",
-    photo: billPhoto,
+    photo: domPhoto,
   },
 ];
 

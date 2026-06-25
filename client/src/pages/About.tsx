@@ -31,12 +31,14 @@ const team = [
     title: "Managing Partner",
     focus: "Operations & Investment",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    linkedin: "https://www.linkedin.com/in/bill-tabino/",
   },
   {
     name: "Dominick Blue",
     title: "Managing Partner",
     focus: "AI & Technology Commercialization",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    linkedin: "https://www.linkedin.com/in/dominickblue/",
   },
 ];
 
@@ -157,6 +159,15 @@ export default function About() {
                 <p className="text-nostra-slate leading-relaxed text-sm" data-testid={`text-team-bio-${index}`}>
                   {member.bio}
                 </p>
+                <a
+                  href={member.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-nostra-navy-military hover:text-nostra-navy-deep transition-colors"
+                  data-testid={`link-team-linkedin-${index}`}
+                >
+                  LinkedIn
+                </a>
               </div>
             ))}
           </div>

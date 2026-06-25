@@ -17,7 +17,7 @@ import { useToast } from "@/hooks/use-toast";
 import { apiRequest } from "@/lib/queryClient";
 import { insertContactSchema, type InsertContact } from "@shared/schema";
 import SEO from "@/components/SEO";
-import { Mail, Globe, Send, CheckCircle, Loader2 } from "lucide-react";
+import { Mail, Globe, Send, CheckCircle, Loader2, Linkedin } from "lucide-react";
 
 const contactFormSchema = insertContactSchema.extend({});
 
@@ -72,7 +72,7 @@ export default function Contact() {
               </h1>
               <div className="mt-8 space-y-6">
                 <p className="text-lg text-nostra-light/80 leading-relaxed" data-testid="text-contact-intro-1">
-                  Whether you're a founder thinking about what's next, an owner looking for operational support, or an intermediary with a relevant opportunity — we'd like to hear from you.
+                  Whether you're a founder thinking about what's next, an owner looking for operational support, or an intermediary with a relevant opportunity — we want to hear from you.
                 </p>
                 <p className="text-lg text-nostra-light/80 leading-relaxed" data-testid="text-contact-intro-2">
                   We respond to every serious inquiry. If there's a fit, you'll hear back quickly. If not, we'll tell you that too.
@@ -112,6 +112,23 @@ export default function Contact() {
                     </a>
                   </div>
                 </div>
+                <div className="flex items-center gap-4" data-testid="contact-info-linkedin">
+                  <div className="w-10 h-10 rounded-md bg-nostra-light/10 flex items-center justify-center">
+                    <Linkedin className="h-5 w-5 text-nostra-light/80" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-nostra-light/60 mb-1">LinkedIn</p>
+                    <a
+                      href="https://www.linkedin.com/company/nostragroup"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-nostra-light transition-colors"
+                      data-testid="link-contact-linkedin"
+                    >
+                      Nostra Group
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -125,7 +142,7 @@ export default function Contact() {
                     Message Sent
                   </h3>
                   <p className="text-nostra-light/70 leading-relaxed" data-testid="text-success-message">
-                    Thank you for reaching out. We'll review your message and get back to you soon.
+                    We'll be in touch. If there's a fit, you'll hear back within 48 hours.
                   </p>
                   <Button
                     onClick={() => setIsSubmitted(false)}

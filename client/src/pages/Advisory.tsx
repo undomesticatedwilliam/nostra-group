@@ -159,7 +159,7 @@ export default function Advisory() {
               Services cover fractional executive leadership, operational assessment, business operations and cadence design, technology strategy, commercial value creation, transaction preparation, and integration support.
             </p>
             <p className="text-lg text-nostra-slate leading-relaxed" data-testid="text-advisory-intro-3">
-              We're not consultants who deliver a deck and disappear. We work alongside your team to solve real problems, with compensation structures aligned to outcomes, not hours billed.
+              We're not consultants who deliver a deck and disappear.
             </p>
           </div>
         </div>

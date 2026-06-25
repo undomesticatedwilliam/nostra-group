@@ -37,7 +37,7 @@ const focusAreas = [
 
 const targetMetrics = [
   { icon: Check, label: "Structure", value: "Control Acquisitions" },
-  { icon: DollarSign, label: "EBITDA", value: "$3M+" },
+  { icon: DollarSign, label: "EBITDA", value: "$2M+" },
   { icon: TrendingUp, label: "Margins", value: "10%+ EBITDA" },
   { icon: MapPin, label: "Geography", value: "United States" },
 ];

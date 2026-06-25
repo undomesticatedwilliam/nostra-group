@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import SEO from "@/components/SEO";
 import { Target, Cpu, Shield } from "lucide-react";
 import { Link } from "wouter";
+import billPhoto from "@assets/Headshot_-_Copy_1782412646025.png";
+import domPhoto from "@assets/Dom_Headshot_1782412637017.jpg";
 
 const differentiators = [
   {
@@ -32,6 +34,7 @@ const team = [
     focus: "Operations & Investment",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     linkedin: "https://www.linkedin.com/in/bill-tabino/",
+    photo: billPhoto,
   },
   {
     name: "Dominick Blue",
@@ -39,6 +42,7 @@ const team = [
     focus: "AI & Technology Commercialization",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     linkedin: "https://www.linkedin.com/in/dominickblue/",
+    photo: domPhoto,
   },
 ];
 
@@ -139,13 +143,12 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
             {team.map((member, index) => (
               <div key={index} className="flex flex-col items-center text-center" data-testid={`card-team-${index}`}>
-                <div
-                  className="w-32 h-32 rounded-full bg-nostra-navy-military/10 border-2 border-nostra-navy-military/20 flex items-center justify-center mb-6"
-                  data-testid={`img-avatar-${index}`}
-                >
-                  <span className="text-4xl font-bold text-nostra-navy-military/30">
-                    {member.name.split(" ").map(n => n[0]).join("")}
-                  </span>
+                <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-2 border-nostra-navy-military/20" data-testid={`img-avatar-${index}`}>
+                  <img
+                    src={member.photo}
+                    alt={member.name}
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-nostra-navy-deep mb-1" data-testid={`text-team-name-${index}`}>
                   {member.name}

@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import SEO from "@/components/SEO";
 import { Building, Users, Cpu, Puzzle, Shield, DollarSign, MapPin, TrendingUp, Check, X } from "lucide-react";
+import heroBg from "@assets/criteria-infrastructre.jpg_1782353884588.jpg";
 
 const focusAreas = [
   {
@@ -58,13 +59,17 @@ export default function InvestmentCriteria() {
         description="We focus on essential businesses in industries that matter — companies providing mission-critical services. Control acquisitions, $3M+ EBITDA, 10%+ margins, United States."
       />
 
-      <section className="py-20 lg:py-28">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section
+        className="relative py-28 lg:py-44 overflow-hidden"
+        style={{ backgroundImage: `url(${heroBg})`, backgroundSize: "cover", backgroundPosition: "center" }}
+      >
+        <div className="absolute inset-0 bg-nostra-navy-deep/70" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-4xl lg:text-5xl font-bold text-nostra-navy-deep tracking-tight" data-testid="text-criteria-title">
+            <h1 className="text-4xl lg:text-5xl font-bold text-white tracking-tight" data-testid="text-criteria-title">
               Investment Criteria
             </h1>
-            <p className="mt-8 text-lg lg:text-xl text-nostra-slate leading-relaxed" data-testid="text-criteria-intro">
+            <p className="mt-8 text-lg lg:text-xl text-white/80 leading-relaxed" data-testid="text-criteria-intro">
               We focus on essential businesses in industries that matter — companies providing mission-critical services that keep infrastructure running and communities functioning. We're looking for good businesses with room to get better — run by people who care about what happens after they sell.
             </p>
           </div>

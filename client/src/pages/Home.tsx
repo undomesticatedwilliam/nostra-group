@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import SEO from "@/components/SEO";
 import { ArrowRight, Building2, Handshake, TrendingUp, Users, Cpu, Shield } from "lucide-react";
+import heroBg from "@assets/hero-infrastructure.jpg_1782353483699.jpg";
 
 const whatWeDoCards = [
   {
@@ -55,23 +56,27 @@ export default function Home() {
         ogDescription="We partner with founders of mission-critical businesses who've built something worth preserving. Veteran-led independent sponsor acquiring and operating essential businesses for the long term."
       />
 
-      <section className="bg-nostra-bone py-20 lg:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section
+        className="relative py-28 lg:py-44 overflow-hidden"
+        style={{ backgroundImage: `url(${heroBg})`, backgroundSize: "cover", backgroundPosition: "center" }}
+      >
+        <div className="absolute inset-0 bg-nostra-navy-deep/70" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <p className="text-sm font-medium uppercase tracking-widest text-nostra-navy-military mb-4" data-testid="text-company-name">
+            <p className="text-sm font-medium uppercase tracking-widest text-white/60 mb-4" data-testid="text-company-name">
               Nostra Group
             </p>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-nostra-navy-deep leading-tight tracking-tight" data-testid="text-hero-headline">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight" data-testid="text-hero-headline">
               Operational Partnership for Essential Businesses
             </h1>
-            <p className="mt-8 text-lg lg:text-xl text-nostra-slate leading-relaxed max-w-3xl" data-testid="text-hero-subheadline">
+            <p className="mt-8 text-lg lg:text-xl text-white/80 leading-relaxed max-w-3xl" data-testid="text-hero-subheadline">
               We partner with founders of mission-critical businesses who've built something worth preserving. As former operators, we understand what it takes to build a company from the ground up, scale it profitably, and protect the culture and people that made it work. We're not career finance professionals. We're operators who chose to invest.
             </p>
             <div className="mt-10">
               <Link href="/contact">
                 <Button
                   size="lg"
-                  className="bg-nostra-navy-military text-nostra-light font-semibold"
+                  className="bg-white text-nostra-navy-deep font-semibold hover:bg-white/90"
                   data-testid="button-hero-cta"
                 >
                   Get in Touch

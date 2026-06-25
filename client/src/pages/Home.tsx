@@ -8,7 +8,7 @@ import heroBg from "@assets/hero-infrastructure.jpg_1782353483699.jpg";
 const whatWeDoCards = [
   {
     icon: Handshake,
-    title: "A real exit option for founders who give a damn",
+    title: "A real exit option for founders who care",
     content:
       "You built this over decades. You know the PE horror stories — gut the team, slash costs, flip it in three years. We're not that. We're operators who buy good businesses and make them better without destroying what made them work. If you care about what happens after you sign, we should talk.",
   },

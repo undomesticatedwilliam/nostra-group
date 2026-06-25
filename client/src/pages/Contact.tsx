@@ -119,7 +119,7 @@ export default function Contact() {
                   <div>
                     <p className="text-sm text-nostra-light/60 mb-1">LinkedIn</p>
                     <a
-                      href="https://www.linkedin.com/company/nostragroup"
+                      href="https://www.linkedin.com/company/nostra-group-usa"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-nostra-light transition-colors"

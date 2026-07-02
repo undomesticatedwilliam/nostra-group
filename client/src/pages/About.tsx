@@ -39,7 +39,7 @@ const team = [
   {
     name: "Bill Tabino",
     title: "Managing Partner",
-    focus: "Operations & Investment",
+    focus: "Operations & Strategy",
     bio: "I spent seven years scaling SOFLETE from a five-person startup to a profitable exit — no outside capital, 55% CAGR, and margins that made traditional operators take notice. Before that I founded and exited a fitness business, led U.S.-made apparel operations, and evaluated hundreds of acquisition targets as an independent sponsor. Former Marine and UCLA Anderson MBA with a simple belief: the businesses that keep society running deserve better than the standard PE playbook.",
     linkedin: "https://www.linkedin.com/in/bill-tabino/",
     photo: billPhoto,

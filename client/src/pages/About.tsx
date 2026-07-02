@@ -40,7 +40,7 @@ const team = [
     name: "Bill Tabino",
     title: "Managing Partner",
     focus: "Operations & Strategy",
-    bio: "I spent seven years scaling SOFLETE from a five-person startup to a profitable exit — no outside capital, 55% CAGR, and margins that made traditional operators take notice. Before that I founded and exited a fitness business, led U.S.-made apparel operations, and evaluated hundreds of acquisition targets as an independent sponsor. Former Marine and UCLA Anderson MBA with a simple belief: the businesses that keep society running deserve better than the standard PE playbook.",
+    bio: "I spent nine years as COO of SOFLETE, scaling a SaaS/DTC company from inception to a successful exit — 55% CAGR, 110% net revenue retention, and 33% EBITDA margins without outside capital. Before that I founded and grew Silwar Athletics to acquisition and served as President of Compass Rose Apparel, a U.S.-made manufacturer. My advisory work spans business operations, go-to-market strategy, revenue operations, and value creation for companies at inflection points. Former Marine and UCLA Anderson MBA with a simple belief: the businesses that keep society running deserve better than the standard PE playbook.",
     linkedin: "https://www.linkedin.com/in/bill-tabino/",
     photo: billPhoto,
   },
